@@ -18,6 +18,7 @@ h2 {
     color: #66bfbf;
     font-weight: bold;
     padding-top: 5%;
+    font-size: 2.5rem;
 }
 
 h3, a {
@@ -193,7 +194,10 @@ hr {
 }
 
 .overlay-title{
-    padding-top: 15%;
+    padding-top: 18%;
+    color: #fff;
+    text-shadow: 3px 3px 3px #00b8a9;
+    font-size: 4rem;
 }
 
 .overlay-title-md {
@@ -204,10 +208,39 @@ hr {
 
 .overlay-text {
     color: #fff;
+    padding-top: 1%;
+    font-size: 1.3rem;
+    text-shadow: 3px 3px 3px #007067;
 }
 
 .card-img-overlay {
     padding: 0px;
+}
+
+/******************** Mysore Palace ********************/
+
+.mysore-palace-title {
+    padding-bottom: 5%;
+    font-size: 3rem;
+    color: #11999e;
+}
+
+.mysore-palace-img {
+    padding: 0px;
+    width: 90%;
+}
+
+.mysore-palace-btn {
+    margin-top: 5%;
+    padding: 1%;
+    font-size: larger;
+    background-color: #f77979;
+    color: #fff;
+}
+
+.mysore-palace-btn:hover {
+    background-color: #ff7070;
+    color: #fff;
 }
 
 /******************** HomePage Booking Cards ********************/
@@ -538,27 +571,6 @@ hr {
     font-weight:600;
 }
 
-/******************** Media Queries ********************/
-
-@media (max-width: 768px) {
-    .cardbox-comments {
-        width: 100%;
-    }
-}
-
-@media (max-width: 320px) {
-    .search {
-        right: -50px;
-        top: -35px;
-    }
-    .search input[type="text"] {
-        padding: 5%;
-    }
-    .search button {
-        top: 15px;
-    }
-}
-
 /******************** Destinations Page ********************/
 
 .tourist-destinations-headline {
@@ -609,7 +621,59 @@ hr {
     opacity: 0.7;
 }
 
+/******************** Events ********************/
+
+.events-title {
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.events-row {
+    padding: 5%;
+    padding-top: 1%;
+}
+
+.events-col {
+    padding: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+.events-btn {
+    padding: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #f77979;
+    border: none;
+    color: #fff;
+}
+
+.events-btn:hover {
+    background-color: orangered;
+    color: #fff;
+}
+
 /******************** Media Queries ********************/
+
+@media (max-width: 768px) {
+    .cardbox-comments {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .search {
+        right: -50px;
+        top: -35px;
+    }
+    .search input[type="text"] {
+        padding: 5%;
+    }
+    .search button {
+        top: 15px;
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1199px){
     .destinations-btn {
@@ -663,7 +727,62 @@ hr {
     }
 }
 
+@media (min-width: 767px) and (max-width: 1111px) {
+    .overlay-title {
+        padding-top: 8%;
+    }
+}
+
+@media (min-width: 1060px) and (max-width: 1111px) {
+    .overlay-title {
+        padding-top: 15%;
+    }
+}
+
 /******************** Contact Us ********************/
+
+.contact-us-headline {
+    padding-top: 1%;
+    padding-bottom: 7%;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.contact-text {
+    text-shadow: 3px 3px 3px #000;
+}
+
+.contact-col {
+    padding-bottom: 5%;
+}
+
+.contact-social {
+    padding-top: 25%;
+    padding-right: 12%;
+}
+
+.insta {
+    color: #fc5185
+}
+
+.fcb {
+    color: #3490de;
+}
+
+.twtr {
+    color: rgb(54, 184, 235);
+}
+
+.insta:hover {
+    color: #ff2466
+}
+
+.fcb:hover {
+    color: #0076dd;
+}
+
+.twtr:hover {
+    color: rgb(0, 143, 199);
+}
 
 #img{
     background-image: url("contact.jpg");
@@ -718,8 +837,10 @@ hr {
     border-radius: 15px;
 }
 
-.last-line {
-    padding-bottom: 5%;
+@media (max-width: 768px) {
+    .con-form {
+        margin-left: 20%;
+    }
 }
 
 /******************** Hotels ********************/
@@ -736,7 +857,7 @@ hr {
 }
 
 .more-hotels-btn {
-    background-color: indianred;
+    background-color: #f77979;
     border: none;
     width: 15%;
     font-size: larger;
@@ -745,7 +866,7 @@ hr {
 }
 
 .more-hotels-btn:hover {
-    background-color: rgb(201, 55, 55);
+    background-color: orangered;
     width: 15%;
 }
 
