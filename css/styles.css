@@ -654,40 +654,6 @@ hr {
     opacity: 0.7;
 }
 
-/******************** Events ********************/
-
-.events-title {
-    padding-top: 5%;
-    padding-bottom: 7%;
-}
-
-.events-row {
-    padding: 5%;
-    padding-top: 1%;
-    margin: 0px;
-}
-
-.events-col {
-    padding: 7%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-}
-
-.events-btn {
-    padding: 5%;
-    padding-left: 8%;
-    padding-right: 8%;
-    background-color: #f77979;
-    border: none;
-    color: #fff;
-}
-
-.events-btn:hover {
-    background-color: orangered;
-    color: #fff;
-}
-
 /******************** Yoga ********************/
 
 .card-title-yoga{
@@ -793,114 +759,6 @@ hr {
     }
 }
 
-/******************** Contact Us ********************/
-
-.contact-row {
-    margin: 0px;
-}
-
-.contact-us-headline {
-    padding-top: 1%;
-    padding-bottom: 7%;
-    text-shadow: 3px 3px 3px #000;
-}
-
-.contact-text {
-    text-shadow: 3px 3px 3px #000;
-}
-
-.contact-col {
-    padding-bottom: 5%;
-}
-
-.contact-social {
-    padding-top: 25%;
-    padding-right: 12%;
-}
-
-.insta {
-    color: #fc5185
-}
-
-.fcb {
-    color: #3490de;
-}
-
-.twtr {
-    color: rgb(54, 184, 235);
-}
-
-.insta:hover {
-    color: #ff2466
-}
-
-.fcb:hover {
-    color: #0076dd;
-}
-
-.twtr:hover {
-    color: rgb(0, 143, 199);
-}
-
-#img{
-    background-image: url("contact.jpg");
-    color: white;
-}
-
-.concen{
-    font-size: large;
-    font-weight:bold;
-
-}
-.con-form{
-    margin:40px 150px;
-    text-align: left;
-    margin-bottom: auto;
-}
-.con-form form label{
-    font-size: large;
-    font-weight:bold;
-
-}
-.con-form form input{
-    border:0.5px solid;
-    border-radius:5px;
-    margin:10px;
-}
-.con-form form textarea{
-    border:0.5px solid;
-    border-radius:5px;
-}
-.con-links p{
-    font-size: larger;
-    font-weight: bolder;
-}
-.con-links a{
-    color:white;
-    padding: 50px;
-    font-size: larger;
-    font-weight: bolder;
-    
-}
-.con-links {
-    padding: 5%;
-}
-#con-btn{
-    position: relative;
-    left: 45%;
-    padding: 5px 25px;
-    font-size: large;
-    font-weight: 800;
-    margin: 20px;
-    border-radius: 15px;
-}
-
-@media (max-width: 768px) {
-    .con-form {
-        margin-left: 20%;
-    }
-}
-
 /******************** Hotels ********************/
 
 .hotel-cards {
@@ -926,6 +784,52 @@ hr {
 .more-hotels-btn:hover {
     background-color: orangered;
     width: 15%;
+}
+
+/******************** Events ********************/
+
+.events-title {
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.events-row {
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.events-col {
+    padding: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+.events-btn {
+    padding: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #f77979;
+    border: none;
+    color: #fff;
+}
+
+.events-btn:hover {
+    background-color: orangered;
+    color: #fff;
+}
+
+.event-btn-last {
+    padding-top: 1%;
+    margin-bottom: 7%;
+    color: #fff;
+    width: fit-content;
+}
+
+.event-btn-last:hover {
+    color: #fff;
 }
 
 /******************** Our Team ********************/
@@ -1034,6 +938,115 @@ ul{
 }
 .our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
    color:#025a8e;
+}
+
+
+/******************** Contact Us ********************/
+
+.contact-row {
+    margin: 0px;
+}
+
+.contact-us-headline {
+    padding-top: 1%;
+    padding-bottom: 7%;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.contact-text {
+    text-shadow: 3px 3px 3px #000;
+}
+
+.contact-col {
+    padding-bottom: 5%;
+}
+
+.contact-social {
+    padding-top: 25%;
+    padding-right: 12%;
+}
+
+.insta {
+    color: #fc5185
+}
+
+.fcb {
+    color: #3490de;
+}
+
+.twtr {
+    color: rgb(54, 184, 235);
+}
+
+.insta:hover {
+    color: #ff2466
+}
+
+.fcb:hover {
+    color: #0076dd;
+}
+
+.twtr:hover {
+    color: rgb(0, 143, 199);
+}
+
+#img{
+    background-image: url("contact.jpg");
+    color: white;
+}
+
+.concen{
+    font-size: large;
+    font-weight:bold;
+
+}
+.con-form{
+    margin:40px 150px;
+    text-align: left;
+    margin-bottom: auto;
+}
+.con-form form label{
+    font-size: large;
+    font-weight:bold;
+
+}
+.con-form form input{
+    border:0.5px solid;
+    border-radius:5px;
+    margin:10px;
+}
+.con-form form textarea{
+    border:0.5px solid;
+    border-radius:5px;
+}
+.con-links p{
+    font-size: larger;
+    font-weight: bolder;
+}
+.con-links a{
+    color:white;
+    padding: 50px;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+.con-links {
+    padding: 5%;
+}
+#con-btn{
+    position: relative;
+    left: 45%;
+    padding: 5px 25px;
+    font-size: large;
+    font-weight: 800;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .con-form {
+        margin-left: 20%;
+    }
 }
 
 /******************** Guidelines ********************/
