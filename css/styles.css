@@ -702,7 +702,6 @@ hr {
 
 .more-hotels-btn:hover {
     background-color: orangered;
-    width: 15%;
 }
 
 /******************** Media Queries ********************/
@@ -753,6 +752,9 @@ hr {
     }
     .tourist-destinations-headline {
         font-size: 3rem;
+    }
+    .hotel-card {
+        margin-bottom: 15%;
     }
 }
 
