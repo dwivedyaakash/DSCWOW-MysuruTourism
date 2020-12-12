@@ -1094,3 +1094,119 @@ ul{
 .heart {
     color: red;
 }
+
+/****** Chat Bot ******/
+
+.chat-container{
+    border:2px solid black;
+    margin:5px;
+    text-align: left;
+    background-color: black;
+    border-radius: 22px;
+}
+.chat-profile{
+    border:2px solid black;
+    margin:10px;
+    text-align:left;
+    font-size: larger;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+.chat{
+    border:2px solid black;
+    margin:10px;
+    text-align:left;
+    font-size: larger;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 255px 5px;
+}
+.chat-mess1{
+    border: 2px solid white;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 7px 20px;
+    position: absolute;
+    top: 26%;
+    color: white;
+    left: 46px;
+}
+.chat-mess2{
+    border: 2px solid white;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 7px 20px;
+    position: absolute;
+    top: 34%;
+    color: white;
+    left: 46px;
+}
+.chat input{
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px;
+    width: 93%;
+    height: 42px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    position: relative;
+    left: 30px;
+}
+.chat-mess input placeholder{
+    font-size:larger; 
+}
+.chat-mess{
+    position: relative;
+    top: 250px;
+}
+.chat-mess button{
+    border: 3px solid black;
+    border-radius: 20px;
+    font-weight: 900;
+    position: absolute;
+    right: 12px;
+    bottom: 2px;
+}
+.chat-mess button:hover{
+    border:3px solid grey;
+    background-color: grey;
+    border-radius:20px;
+}
+.chat-profile i{
+    font-size: larger;
+    padding: 0px 15px;
+}
+.fir{
+    color:white;
+    position: absolute;
+    top: 28%;
+}
+.sec{
+    color:white;
+    position: absolute;
+    top: 36%;
+}
+.third{
+    color: white;
+    position: absolute;
+    top: 30%;
+    font-size: larger;
+}
+
+.chatbot-btn {
+    padding: 2%;
+    background-color: #f77979;
+    border: none;
+    color: #fff;
+    margin-bottom: 5%;
+    font-size: 1rem;
+}
+
+.chatbot-btn:hover {
+    background-color: orangered;
+    color: #fff;
+}
