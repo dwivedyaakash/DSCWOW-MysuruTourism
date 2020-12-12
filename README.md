@@ -10,3 +10,5 @@
 1. Aakash Dwivedy
 2. Ayush Gupta
 3. Kumar Pratyush Srivastava
+
+<img src="img/team-img.png">
