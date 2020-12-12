@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -11,9 +11,6 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Ubuntu&display=swap"
             rel="stylesheet">
-
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/47524898bf.js" crossorigin="anonymous"></script>
@@ -36,27 +33,87 @@
 
     <body>
 
-        <div class="chat-container">
+        <!-------------------- NavBar -------------------->
 
-            <div class="chat-profile">
-                <p><i class="fa fa-user" aria-hidden="true"></i>Mysuru Tourism</p>
+        <div class="bg-img">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <a class="navbar-brand" href="index.html">Mysuru Tourism</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hotels.html">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurants.html">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tourist Attractions</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="destinations.html">All Destinations</a>
+                            <a class="dropdown-item" href="heritage-sites.html">Heritage Sites</a>
+                            <a class="dropdown-item" href="museums.html">Museums</a>
+                            <a class="dropdown-item" href="temples.html">Temples</a>
+                            <a class="dropdown-item" href="waterfalls.html">Waterfalls</a>
+                            <a class="dropdown-item" href="lakes.html">Lakes</a>
+                            <a class="dropdown-item" href="zoos.html">Zoos and Aquariums</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+        </div>
 
+        <!-------------------- NavBar End -------------------->
+
+
+        <!----------------------Chat Bot---------------------->
+
+        <div class="chat-container">
+            <div class="chat-profile">
+                <p><i class="fa fa-user" aria-hidden="true"></i>Mysuru Tourism ChatBot</p>
+            </div>
             <div class="chat">
                 <i class="fa fa-user fir" aria-hidden="true"></i>
-                <div class="chat-mess1">Hello!There</div>
+                <div class="chat-mess1">Hello there!</div>
                 <br>
                 <i class="fa fa-user sec" aria-hidden="true"></i>
-                <div class="chat-mess2">
-                    This is Mysuru Tourism Chat-box
-                </div>
+                <div class="chat-mess2">This is Mysuru Tourism Chat-bot</div>
                 <div class="chat-mess">
                     <i class="fa fa-user third" aria-hidden="true"></i>
                     <input type="text" id="fname" name="fname" placeholder="Enter Message"><button>Send</button><br>
                 </div>
             </div>
-
         </div>
+
+        <!----------------------Chat Bot---------------------->
+
+
+        <!-------------------- Footer -------------------->
+
+        <div class="bottom-container">
+            <p class="copyright">© 2020 Mysuru Tourism All Rights Reserved</p>
+            <p class="copyright">Made with <span class="heart">❤</span> by IECians</p>
+        </div>
+
+        <!-------------------- Footer End -------------------->
+
     </body>
 
 </html>
