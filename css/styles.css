@@ -150,7 +150,7 @@ p {
     padding-top: 2.5%;
     padding-bottom: 5%;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -259,6 +259,38 @@ hr {
     margin-bottom: 10%;
 }
 
+/******************** Restaurants ********************/
+
+.restro-headline {
+    color: #2a2a2a;
+    font-size: 3.2rem;
+}
+
+.restro-title {
+    padding-top: 7%;
+}
+
+.restro-title-second {
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.more-restro-btn {
+    width: fit-content;
+}
+
+.more-restro-btn {
+    background-color: #f77979;
+    border: none;
+    font-size: larger;
+    margin-top: 2%;
+    padding: .7%;
+}
+
+.more-restro-btn:hover {
+    background-color: orangered;
+}
+
 /******************** Tourist Destinations Cards ********************/
 
 .tourist-heading {
@@ -287,7 +319,7 @@ hr {
 }
 
 .hero {
-    padding: 6.25rem 0px !important;
+    padding-top: 5%;
     margin: 0px !important;
 }
 
@@ -540,7 +572,7 @@ hr {
 }
     
 .newsletter .content {
-    max-width: 650px;
+    max-width: fit-content;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -575,7 +607,8 @@ hr {
 
 .tourist-destinations-headline {
     padding-top: 5%;
-    font-size: 5rem;
+    font-size: 3.2rem;
+    color: #2a2a2a;
 }
 
 .destinations-headline {
@@ -584,7 +617,7 @@ hr {
 }
 
 .destinations {
-    padding-bottom: 10%;
+    padding-bottom: 3%;
     margin-left: 0;
     margin-right: 0;
 }
@@ -631,6 +664,7 @@ hr {
 .events-row {
     padding: 5%;
     padding-top: 1%;
+    margin: 0px;
 }
 
 .events-col {
@@ -652,6 +686,26 @@ hr {
 .events-btn:hover {
     background-color: orangered;
     color: #fff;
+}
+
+/******************** Yoga ********************/
+
+.card-title-yoga{
+    font-size: x-large;
+    font-weight: 800;
+    padding: 10%;
+    padding-top: 20%;
+}
+
+.yoga {
+    padding: 7%;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.yoga-col {
+    padding-left: 5%;
+    padding-right: 7%;
 }
 
 /******************** Media Queries ********************/
@@ -701,7 +755,7 @@ hr {
         padding-top: 15%;
     }
     .tourist-destinations-headline {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }
 
@@ -740,6 +794,10 @@ hr {
 }
 
 /******************** Contact Us ********************/
+
+.contact-row {
+    margin: 0px;
+}
 
 .contact-us-headline {
     padding-top: 1%;
@@ -868,6 +926,138 @@ hr {
 .more-hotels-btn:hover {
     background-color: orangered;
     width: 15%;
+}
+
+/******************** Our Team ********************/
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.heading.heading-icon {
+    display: block;
+}
+.padding-lg {
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.practice-area .inner{ 
+     border:1px solid #999999; 
+	 text-align:center; 
+	 margin-bottom:28px; 
+	 padding:40px 25px;
+}
+.our-webcoderskull .cnt-block:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+.practice-area .inner h3{ 
+    color:#3c3c3c; 
+	font-size:24px; 
+	font-weight:500;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+}
+.practice-area .inner p{ 
+    font-size:14px; 
+	line-height:22px; 
+	font-weight:400;
+}
+.practice-area .inner img{
+	display:inline-block;
+}
+
+.team-title {
+    padding-bottom: 5%;
+    padding-top: 0px;
+    color: #11999e;
+}
+
+.our-webcoderskull .cnt-block{ 
+   float:left; 
+   width:100%; 
+   background:#fff; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+}
+.our-webcoderskull .cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+	color:#337ab7;
+}
+.our-webcoderskull .cnt-block p{ 
+   color:#2a2a2a; 
+   font-size:13px; 
+   line-height:20px; 
+   font-weight:400;
+}
+.our-webcoderskull .cnt-block .follow-us{
+	margin:20px 0 0;
+}
+.our-webcoderskull .cnt-block .follow-us li{ 
+    display:inline-block; 
+	width:auto; 
+	margin:0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa{ 
+   font-size:24px; 
+   color:#767676;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
+   color:#025a8e;
+}
+
+/******************** Guidelines ********************/
+
+.guidelines{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-left: 20px ;
+    margin-right: 20px ;
+    font-size: larger;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    padding: 3%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 0px;
+    background-color: bisque;
+}
+
+.guidelines-heading{
+    padding-bottom: 7%;
+    font-size: 2.5rem;
 }
 
 /******************** Footer ********************/
