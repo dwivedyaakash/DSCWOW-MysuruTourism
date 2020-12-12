@@ -53,17 +53,19 @@ p {
     font-size: 2rem;
     font-weight: bold;
     margin-top: 2.5%;
-    margin-left: 5%;
-    padding-left: 1%;
     padding-right: 1%;
 }
 
+.navbar-icon {
+    margin-left: 5%;
+}
+
 .navbar-collapse {
-    padding-top: 2.3%;
+    padding-top: 4.5%;
 }
 
 .nav-item {
-    padding: 0 18px;
+    padding: 0 16px;
 }
 
 .nav-link {
