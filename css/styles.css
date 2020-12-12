@@ -666,7 +666,7 @@ hr {
 }
 
 .yoga {
-    padding: 7%;
+    padding: 5%;
     padding-top: 0px;
     margin: 0px;
 }
@@ -674,6 +674,41 @@ hr {
 .yoga-col {
     padding-left: 5%;
     padding-right: 7%;
+}
+
+.yoga-cards {
+    padding: 5%;
+}
+
+.yoga-btns {
+    margin: 5px;
+}
+
+/******************** Hotels ********************/
+
+.hotel-cards {
+    padding: 5%;
+}
+
+.hotel-links a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.more-hotels-btn {
+    background-color: #f77979;
+    border: none;
+    width: 15%;
+    font-size: larger;
+    margin-top: 2%;
+    padding: .7%;
+}
+
+.more-hotels-btn:hover {
+    background-color: orangered;
+    width: 15%;
 }
 
 /******************** Media Queries ********************/
@@ -741,6 +776,9 @@ hr {
     .tourist-destinations-headline {
         font-size: 2.5rem;
     }
+    .more-yoga-btn {
+        padding: 2.5%;
+    }
 }
 
 @media (max-width: 999px) {
@@ -759,33 +797,6 @@ hr {
     .overlay-title {
         padding-top: 15%;
     }
-}
-
-/******************** Hotels ********************/
-
-.hotel-cards {
-    padding: 5%;
-}
-
-.hotel-links a{
-    text-decoration: none;
-    color: white;
-    margin: 5px;
-    border-radius: 10px;
-}
-
-.more-hotels-btn {
-    background-color: #f77979;
-    border: none;
-    width: 15%;
-    font-size: larger;
-    margin-top: 2%;
-    padding: .7%;
-}
-
-.more-hotels-btn:hover {
-    background-color: orangered;
-    width: 15%;
 }
 
 /******************** Events ********************/
