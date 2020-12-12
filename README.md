@@ -6,6 +6,16 @@
 
 <br>
 
+### Website screenshot:
+
+<img src="img/website-screenshot.png">
+
+<br>
+
+---
+
+<br>
+
 ### Team members:
 1. Aakash Dwivedy
 2. Ayush Gupta
