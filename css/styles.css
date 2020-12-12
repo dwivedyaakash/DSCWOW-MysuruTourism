@@ -279,14 +279,10 @@ hr {
 
 .more-restro-btn {
     width: fit-content;
-}
-
-.more-restro-btn {
     background-color: #f77979;
     border: none;
     font-size: larger;
     margin-top: 2%;
-    padding: .7%;
 }
 
 .more-restro-btn:hover {
@@ -700,10 +696,8 @@ hr {
 .more-hotels-btn {
     background-color: #f77979;
     border: none;
-    width: 15%;
     font-size: larger;
     margin-top: 2%;
-    padding: .7%;
 }
 
 .more-hotels-btn:hover {
@@ -781,12 +775,6 @@ hr {
     }
 }
 
-@media (max-width: 999px) {
-    .more-hotels-btn {
-        width: fit-content;
-    }
-}
-
 @media (min-width: 767px) and (max-width: 1111px) {
     .overlay-title {
         padding-top: 8%;
@@ -835,7 +823,7 @@ hr {
 }
 
 .event-btn-last {
-    padding-top: 1%;
+    padding: 0.5%;
     margin-bottom: 7%;
     color: #fff;
     width: fit-content;
