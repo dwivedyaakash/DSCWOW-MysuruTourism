@@ -1199,7 +1199,7 @@ ul{
 
 .chatbot-btn {
     padding: 2%;
-    background-color: #f77979;
+    background-color: #ff8b1f;
     border: none;
     color: #fff;
     margin-bottom: 5%;
@@ -1207,6 +1207,6 @@ ul{
 }
 
 .chatbot-btn:hover {
-    background-color: orangered;
+    background-color: #ff6f3c;
     color: #fff;
 }
