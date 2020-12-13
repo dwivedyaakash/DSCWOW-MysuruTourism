@@ -4,6 +4,10 @@
 
 ### Visit website - [click here](https://dwivedyaakash.github.io/DSCWOW-MysuruTourism/)
 
+### Project presentation - [see here](https://youtu.be/cjS6qA_Y2j0)
+
+### See project on Devfolio - [click here](https://devfolio.co/submissions/mysuru-tourism-7)
+
 <br>
 
 ### Website screenshot:
