@@ -21,8 +21,8 @@
 <br>
 
 ### Team members:
-1. Aakash Dwivedy
-2. Ayush Gupta
-3. Kumar Pratyush Srivastava
+#### 1. Aakash Dwivedy - [LinkedIn](https://www.linkedin.com/in/dwivedyaakash/)
+#### 2. Ayush Gupta - [GitHub](https://github.com/ayush-gupta-github)
+#### 3. Kumar Pratyush Srivastava - [GitHub](https://github.com/kpratyush03)
 
 <img src="img/team-img.png">
